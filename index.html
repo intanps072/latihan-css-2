@@ -7,29 +7,96 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="main-header">
     <div class="container"> 
         <div class="header">
             <h1 class="judul">Websiteku</h1>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Product</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#awal">Home</a></li>
+                <li><a href="#tentang">About</a></li>
+                <li><a href="#produk">Product</a></li>
+                <li><a href="#layanan">Services</a></li>
+                <li><a href="#kontak">Contact</a></li>
             </ul>
         </div>
+    </header>
+
         <div class="hero"></div>
         <div class="content">
-            <h2>Selamat Datang di Website Saya</h2>
+            <h2 id="awal">Selamat Datang di Website Saya</h2>
             <p class="saya">Dibuat oleh
             <a href="#">
                 Intan Permatasari
             </a>
             Pada 4 September 2025
             </p>
-            <p>Website adalah ebuah halaman yang berisi informasi, konten, atau layanan yang dapat diakses melalui internet. Website dapat berupa halaman statis atau dinamis, dan biasanya terdiri dari teks, gambar, video, dan elemen interaktif lainnya. Website dapat digunakan untuk berbagai tujuan, seperti bisnis, pendidikan, hiburan, atau komunikasi.</p>
+            <p>Website adalah sebuah halaman yang berisi informasi, konten, atau layanan yang dapat diakses melalui internet. Website dapat berupa halaman statis atau dinamis, dan biasanya terdiri dari teks, gambar, video, dan elemen interaktif lainnya. Website dapat digunakan untuk berbagai tujuan, seperti bisnis, pendidikan, hiburan, atau komunikasi.</p>
             <p>Website dapat diakses melalui browser web seperti Google Chrome, Mozilla Firefox, atau Safari. Untuk mengunjungi sebuah website, pengguna perlu mengetahui alamat URL (Uniform Resource Locator) dari website tersebut. Setelah memasukkan URL ke dalam browser, pengguna akan diarahkan ke halaman utama website.</p>
 
+        </div>
+        <hr>
+        <div class="about">
+            <h2 id="tentang">About Me</h2>
+            <p>Halo, nama saya Intan Permatasari. Saya memiliki minat yang besar dalam bidang teknologi dan desain web. Saya senang belajar hal-hal baru dan berusaha untuk terus mengembangkan keterampilan saya di bidang ini. Saya percaya bahwa teknologi dapat memberikan dampak positif bagi kehidupan manusia, dan saya ingin menjadi bagian dari perubahan tersebut. Selain itu, saya juga menikmati kegiatan seperti membaca, menulis, dan berkreasi dengan seni digital.</p>
+        </div>
+        
+        <section> 
+            <div class="product">
+            <h2 id="produk">Product</h2>
+            <div class="box">
+                
+                <h3>Product 1</h3>
+                <img src="jetz.jpg" alt="Product 1">
+                <p>Makanan ringan dengan bentuk stik coklat</p>
+
+                <h3>Product 2</h3>
+                <img src="bengbeng.jpg" alt="Product 2">
+                <p>Makanan ringan dengan bentuk stik bar coklat isi wafer dan karamel</p>
+
+                <h3>Product 3</h3> 
+                <img src="taro.jpg" alt="Product 3">
+                <p>Makanan ringan dengan bentuk kotak berlubang rasa rumput laut</p>
+
+            </div>
+        </div>
+        </section>
+        
+        <section>
+        <div class="services">
+            <h2 id="layanan">Services</h2>
+            <div class="box">
+                <h3>Service 1</h3>
+                <p>Deskripsi singkat tentang layanan 1.</p>
+
+                <h3>Service 2</h3>
+                <p>Deskripsi singkat tentang layanan 2.</p>
+
+                <h3>Service 3</h3>
+                <p>Deskripsi singkat tentang layanan 3.</p>
+            </div>
+        </div>
+        </section>
+        <hr>
+        <section></section>
+        <div class="contact">
+            <h2 id="kontak">Contact Me</h2>
+            <form action="#">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        </section>
+
+        <div class="footer">
+            <p>Copyright &copy; 2025. All Rights Reserved.</p>
         </div>
             
 

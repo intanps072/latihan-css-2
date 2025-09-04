@@ -5,10 +5,17 @@ body {
     color: #333;
 }
 
+h2 {
+    color: rgb(180, 71, 8);
+    
+}
+
+/* Home Page */
+
 .container {
-    width: 800px;
-    margin: auto;
     background-color: antiquewhite;
+    max-width: 1000px;
+    
 }
 
 .header {
@@ -19,12 +26,14 @@ body {
     font-size: 40px;
     font-weight: bold;
 
+
 }
 
 .header ul li {
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-right: 10px;
+    padding: 5px 10px;
     
 }
 
@@ -37,7 +46,6 @@ body {
 .header a:hover {
     background-color: darkgrey;
     color: white;
-    margin: 100px;
     
 }
 
@@ -45,7 +53,7 @@ body {
     height: 250px;
     background-image: url(capadocia.jpg);
     background-size: cover;
-    padding: 20px;
+    padding: 80px;
     text-align: center;
 }
 
@@ -53,4 +61,64 @@ body {
     padding: 20px;
     text-align: justify;
 
+}
+
+/* About */
+
+.about {
+    padding: 20px;
+    overflow: hidden;
+    text-align: justify;
+}
+
+/* Products */
+
+.product {
+    padding: 20px;
+    overflow: hidden;
+    text-align: justify;
+    display: flexbox;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    background-color: rgb(177, 231, 238);
+
+}
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.product h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+.product p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Services */
+.service {
+    padding: 20px;
+    overflow: hidden;
+    text-align: justify;
+}
+
+/* Contact */
+.contact {
+    padding: 20px;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(180, 71, 8);
+    color: white;
+    margin-top: 20px;
 }
