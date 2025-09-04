@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(240, 240, 240);
+    color: #333;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: antiquewhite;
+}
+
+.header {
+    padding: 20px;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+    
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(180, 71, 8);
+    
+}
+
+.header a:hover {
+    background-color: darkgrey;
+    color: white;
+    margin: 100px;
+    
+}
+
+.hero {
+    height: 250px;
+    background-image: url(capadocia.jpg);
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    padding: 20px;
+    text-align: justify;
+
+}
